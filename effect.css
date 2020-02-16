@@ -1,0 +1,17 @@
+.container8 .card {
+    overflow: hidden;
+}
+.container8 .tophover{
+    background-color: lawngreen;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    position: relative;
+
+
+}
+.container8 .tophover :hover{
+
+}
+
+
