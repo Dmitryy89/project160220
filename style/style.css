@@ -310,30 +310,6 @@ header .btn a{
 
 
 
-.container3{
-    min-height: 280px;
-}
-.container3 .container{
-    padding-top: 100px;
-}
-.container3 h4{
-    font-family: 'Lora', serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: #404f54;
-}
-.container3 .title{
-    font-family: 'Lora', serif;
-    font-size: 21px;
-    font-weight: 700;
-    color: #1baba1;
-}
-.container3 .text{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #404f54;
-}
 
 
 
@@ -893,6 +869,72 @@ margin-bottom: 15px;
     }
 }
 @media(max-width: 576px) {
-    
+    .container55 .ots, .container55 .outborder, .container55 .outbordercenter, .container55 .bordercenter{
+        display: none;
+    }
+    .container55 .cards{
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        margin-bottom: 70px;    
+    }
+    .container55 .cards .item{
+        margin: 0 auto;
+    }
+    .container55 a{
+        display: block;
+        margin: 20px 40px;
+    }
+    .container7{
+        max-width: 100%;
+    }
+    .container7 .flexcard{
+        max-width: 90%;
+    }
+    .container7 .flexrow .flexcard .lowerblok{
+        max-width: 90%;
+        padding-left: 0;
+        max-width: 100%;
+        padding-bottom: 43px;
+    }
+    .container7 .flexrow .flexcard .lowerblok p{
+        padding-left: 15px;
+    }
+    header .menu2{
+        margin-left: 1%;
+    }
+    header .btn{
+        margin-top: 50px;
+        margin-left: 30%;
+    }
+    .container2 p{
+        padding: 0 20px;
+    }
+    .container2 .input_group {
+        width: 95%;
+    }
+    .container2 .input_group input{
+        padding-left: 5px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .container2 .input_group .btn button{
+        padding: 0;
+        width: 50px;
+    }
+    .container2 h2{
+        font-size: 38px;
+    }
+    .menu-container.opened{
+        z-index: 10;
+    }
+    .container9 .card2 .blog div{
+        padding-top: 0;
+    }
+    .container9 .card2 .blog img{
+        height: min-content;
+    }
+    .container4 .container .row .rightcontent{
+        padding-left: 15px;
+    }
 }
 

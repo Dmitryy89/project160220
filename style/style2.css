@@ -1,0 +1,31 @@
+.container3 {
+  min-height: 280px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.container h4 {
+  font-family: 'Lora', serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #404f54;
+}
+
+.container .title {
+  font-family: 'Lora', serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #1baba1;
+}
+
+.container .text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #404f54;
+}
+/*# sourceMappingURL=style2.css.map */
